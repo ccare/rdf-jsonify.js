@@ -1,0 +1,23 @@
+{
+  "author": "Charles Care <c.p.care@gmail.com> (http://blog.ccare.me)",
+  "name": "rdf-jsonify",
+  "description": "Apply namespace translation to make rdf-json more managable in situations where json is more appropriate",
+  "version": "0.0.1",
+  "homepage": "http://labs.metadatis.com/rdf-jsonify",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ccare/rdf-jsonify.git"
+  },
+  "scripts": {
+    "test": "vows --spec"
+  },
+  "main": "./lib/transform",
+  "dependencies": {},
+  "devDependencies": {
+    "vows": "0.6.x"
+   },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">= 0.4"
+  }
+}
